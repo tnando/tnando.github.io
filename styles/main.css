@@ -262,6 +262,13 @@ code{
     background:#111;
 }
 
+.contact .heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
 .formBx{
     min-width: 60%;
 }
