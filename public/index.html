@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Thomas Nandola | Personal Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Thomas Nandola</a>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+      <li><a href="#skills" onclick="toggleMenu()">Experience</a></li>
+      <!-- <li><a href="#work" onclick="toggleMenu()">Work</a></li> -->
+      <li><a href="#testomonial" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="home">
+    <div class="textBox">
+      <h2>Hello, I'm <br><span>Thomas Nandola.</span></h2>
+      <h3>I'm a Software Engineer</h3>
+      <a href="#education" class="btn">About me</a>
+    </div>
+  </section>
+  <section class="education" id="education">
+    <div class="heading">
+      <h2>Education</h2>
+      <hr>
+    </div>
+    <div class="content">
+      <div class="contentBx w50">
+        <img src="rh-1.jpg" class="img" width="80" height="80">
+        <h3 style="padding-bottom: 0px; padding-top: 20px; margin-bottom: 0">ROSE-HULMAN INSTITUTE OF TECHNOLOGY</h3>
+        <div class="sub-head">
+        <p>Bachelor of Science - BS, Software Engineering</p>
+        <p style="padding-bottom: 20px;">2018 - 2022</p>
+      </div>
+        <p>I'm currently pursuing a Bachelor of Science in Software Engineering and a Minor in Entreprenurial Studies
+          at Rose-Hulman Institute of Technology. I graduated with Magna Cum Laude from Grayslake Central High School in 2018
+          and embarked on my jouney of higher education at Rose-Hulman in the Fall of 2018. By the time I graduate in May of
+          2022 I plan to have a specilization in Computer Security and Artificial Intelligence.
+          <br><br>
+          <strong>Relevant Courses: </strong> Data Structures and Algorithms, Database Systems, Computer Networks, Software Requirements, Object‐Oriented Development, Technical Entrepreneurship, Foundations of Cybersecurity, Intro to Web Programming, Software Design
+          <br><br>
+          <code><strong>Computer Languages:</strong> Java, Python, C, C#, HTML, CSS, JavaScript, TypeScript, Node.Js, PostgreSQL, T-SQL, Ruby, Scheme
+          <br>
+          <strong>Frameworks & Tools:</strong> BootstrapMD, Ruby on Rails, Vue.JS, React.JS
+          <br>
+        <strong>Prototyping:</strong> Adobe XD, Figma, Photoshop, Illustrator, PlantUML
+        </code>
+        </p>
+      </div>
+      <div class="contentBx w50">
+        <!-- Add image here -->
+        <img src="85.jpeg" class="img">
+      </div>
+      
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="heading white">
+    <h2>Work Experience</h2>
+    <p>Relevant Work Experience</p>
+    </div>
+    <div class="content">
+      <div class="skillsBx">
+        <img src="Rose-Ventures.jpeg">
+        <h2 class="h2-skill">Rose-Hulman Ventures</h2>
+        <h3>Full-Stack Web Developer Intern</h3>
+        <h4>September 2020 - Present | Terre Haute, IN</h4>
+        <p>Working on front-end development of website using Vue.JS, and HTMLCS. 
+          Integrating back-end services by utilizing REST API, JQuery, C#, and SQL. 
+          Contributing work in fast-pace, agile, sprint-based work environment.
+          Learning new skills apart of the collaborative environment.</p>
+        <!-- <<p>HTML, CSS, Python, Javasript, Typescript, C#, React.JS, Node.JS, Restful API, T-SQL, PostgreSQL</p>> -->
+      </div>
+      <div class="skillsBx">
+        <img src="mw.jpeg" width="80" height="80">
+        <h2 class="h2-skill">Malene Design</h2>
+        <h3>Web Development Consultant</h3>
+        <h4>June 2018 - August 2018 | Chicago, IL</h4>
+        <p>Developed a website for the customer that supports desktop and mobile platforms. 
+          Assembled efficient user experience and search engine optimization to elevate new user traffic. 
+          Collaborated with business owner on a weekly basis for feedback on development.</p>
+      </div>
+    </div>
+  </section>
+  <section class="testomonial" id="testomonial">
+    <div class="heading">
+      <h2>Projects</h2>
+      <p>Much of my experience is gained from personal and team projects.</p>
+      </div>
+      <div class="content">
+        <div class="testomonialBx">
+          <h3>Smart Course Calendar<br><span>Computer Database Project (CSSE 333)</span></h3>
+          <p>Created an SQL database management server to store data and functionality of course calendars for students and professors. Constructed course calendar collaboration tool using Java and mySQL stored procedures to allow 30+ student accounts to connect to a course calendar created by a professor. Designed and deployed the ability for users to import and export their course calendars as an iCal file to the calendar app on their smart phones, laptop, etc.</p>
+        </div>
+        <div class="testomonialBx">
+          <h3>P2P Message App<br><span>Computer Networks Project (CSSE 432) </span></h3>
+          <p>Created a multi-threaded program to allow 10+ clients to chat concurrently in Python. Designed user accounts and a login authentication system to verify users before logging into the chat server. Integrated user-interface using Python Tkinter GUI for clients to easily send, receive, and read messages.</p>
+        </div>
+        
+        <div class="heading">
+          <a href="projects.html#home" class="btn">View More</a>
+        </div>
+        
+      </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="heading">
+      <h2>Contact Thomas</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+                <div class="text">
+                  <h3>Located</h3>
+                  <p>Chicago, IL</p>
+                </div>
+            </div>
+            <!-- <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+                <div class="text">
+                  <h3>Phone</h3>
+                  <p>-----</p>
+                </div>
+              </div> -->
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+                <div class="text">
+                  <h3>Email</h3>
+                  <p>thomasnandola@gmail.com</p>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="formBx">
+        <form>
+          <h3>Message Me</h3>
+          <input type="text" name="" placeholder="Full Name">
+          <input type="email" name="" placeholder="Email">
+          <textarea placeholder="Your Message"></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+  </section>
+
+  <div class="copyright">
+    <p>© 2021 Thomas Nandola. All Right Reserved.</p>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
